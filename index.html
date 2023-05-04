@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/investment.png" type="image/x-icon">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- BOOTSTRAP 5 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Ankon Roy</title>
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+    <header class="fixed-top">
+        <div class="container d-flex justify-content-between">
+            <div class="logo">
+                <h2>AR</h2>
+            </div>
+            <div class="navbar main-menu">
+                <ul class="d-flex gap-5">
+                    <li class="toggler" onclick="toggleSideMenu()"><i class="fa-solid fa-bars"></i></li>
+                    <li class="items"><a class="text-white" href="#home">Home</a></li>
+                    <li class="items"><a class="text-white" href="#about">About</a></li>
+                    <li class="items"><a class="text-white" href="#portfolio">Portfolio</a></li>
+                    <li class="items"><a class="text-white" href="#resume">Resume</a></li>
+                </ul>
+            </div>
+            <div id="myNav" class="overlay">
+                <div class="overlay-content d-grid justify-content-center text-center mt-5 gap-3">
+                    <a onclick="toggleSideMenu()" href="#home">Home</a>
+                    <a onclick="toggleSideMenu()" href="#about">About</a>
+                    <a onclick="toggleSideMenu()" href="#portfolio">Portfolio</a>
+                    <a onclick="toggleSideMenu()" href="#resume">Resume</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section id="home">
+        <div class="container d-flex align-content-center justify-content-between">
+            <div class="box1 text-white">
+                <h2 class="display-6">Hello,</h2>
+                <h1 class="display-2">I am Ankon Roy</h1>
+                <span class="display-5 fw-semibold role">I am <span id="element" class="text-danger"></span></span>
+                <div class="contact_links">
+                    <ul class="d-flex gap-3 p-0 mt-5">
+                        <li class="bg-white p-1 fs-3 icon d-flex justify-content-center align-items-center"><a href="https://www.facebook.com/ankon.roy.92754"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li class="bg-white p-1 fs-3 icon d-flex justify-content-center align-items-center"><a href="https://www.linkedin.com/in/ankon-roy-31416pie"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li class="bg-white p-1 fs-3 icon d-flex justify-content-center align-items-center"><a href="https://github.com/ankonroy"><i class="fa-brands fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box2">
+                <img src="img/My Photo Yellow Background.png" alt="My Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+
+    <section id="about">
+        <div class="container d-flex gap-4 p-5">
+            <div class="skill">
+                <div class="image_label d-flex gap-4">
+                    <div class="photo">
+                        <img src="img/My Photo Yellow Background.png" alt="My Image">
+                    </div>
+                    <div class="label">
+                        <ul class="d-flex flex-column gap-3 p-0">
+                            <li><span class="fw-semibold">Name:</span> Morgan Freeman</li>
+                            <li><span class="fw-semibold">Profile:</span> Frontend developer</li>
+                            <li><span class="fw-semibold">Email:</span> ankonroy31416.com</li>
+                            <li><span class="fw-semibold">Phone:</span> +8801991969096</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill-content mt-5">
+                    <div class="html">
+                        <span class="d-block mb-3">HTML 90%</span>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:90%"></div>
+                        </div>
+                    </div>
+                    <div class="css mt-3">
+                        <span class="d-block mb-3">CSS 85%</span>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:85%"></div>
+                        </div>
+                    </div>
+                    <div class="js mt-3">
+                        <span class="d-block mb-3">JAVASCRIPT 70%</span>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:70%"></div>
+                        </div>
+                    </div>
+                    <div class="bootstrap mt-3">
+                        <span class="d-block mb-3">BOOTSTRAP 80%</span>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <h2>About me</h2>
+                <div class="underline bg-primary"></div>
+                <p class="fs-5 mt-3 p-1">Hello!, This is Ankon Roy. Currently, I am Studying Computer Science and Engineering. My passion for problem-solving has
+                bought me to Khulna University of Engineering and Technology. But I do not want to stop my journey here and desperately
+                want to learn more about Math and Programming.
+                <br>
+                <br>
+                That's why now I am looking one step further and want to grow my carrier in the job field. I am an intermediate-level
+                expert in HTML, CSS, and JavaScript. I use Bootstrap and Tailwind as my CSS framework.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+
+    <section id="portfolio">
+        <div class="container text-center py-5">
+            <h2 class="fw-semibold">PORTFOLIO</h2>
+            <div class="underline bg-primary m-auto my-4"></div>
+            <p>Checkout my projects</p>
+            <div class="box d-flex gap-5 mt-4">
+                <div class="proj bg-warning p-3">
+                    <h3>Movie App</h3>
+                    <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repudiandae incidunt unde fuga sed eligendi libero necessitatibus impedit. Vero, suscipit?</p>
+                    <span><a onclick="showProj()" class="lnk">Click here</a> to view my project.</span>
+                </div>
+                <div class="proj bg-warning p-3">
+                    <h3>Weather App</h3>
+                    <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repudiandae incidunt unde fuga sed eligendi libero necessitatibus impedit. Vero, suscipit?</p>
+                    <span><a onclick="showProj()" class="lnk">Click here</a> to view my project.</span>
+                </div>
+                <div class="proj bg-warning p-3">
+                    <h3>Cryptocurrency tracker</h3>
+                    <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repudiandae incidunt unde fuga sed eligendi libero necessitatibus impedit. Vero, suscipit?</p>
+                    <span><a onclick="showProj()" class="lnk">Click here</a> to view my project.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESUME SECTION -->
+
+    <footer id="resume">
+        <div class="container text-center py-5">
+            <h2 class="fw-semibold">RESUME</h2>
+            <div class="underline bg-primary m-auto my-4"></div>
+            <p>Download my resume</p>
+            <button class="btn btn-outline-primary" onclick="downloadResume()">Download</button>
+        </div>
+    </footer>
+    
+    <!-- FONT AWESOME FONT -->
+    <script src="https://kit.fontawesome.com/4ee37d910f.js" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <!-- JS FILES -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

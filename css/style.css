@@ -1,0 +1,153 @@
+/* BASIC SETUP*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+/* HEADER SECTION */
+
+header {
+    padding-top: 10px;
+    color: #fff !important;
+    background: #000;
+    height: 70px;
+}
+
+header a {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header .overlay {
+    background: #ccc;
+    position: absolute;
+    overflow: hidden;
+    width: 0%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    transition-duration: 0.5s;
+}
+
+
+header .toggler {
+    display: none;
+}
+
+/* HOME SECTION */
+
+#home {
+    background: #000;
+    height: 100vh;
+}
+
+#home .box1 {
+    height: 50vh;
+}
+
+#home .box1 {
+    width: 60%;
+}
+
+#home .box2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#home .box2 img {
+    width: 100%;
+    height: 100%;
+}
+
+#home .container {
+    margin-top: 70px;
+    padding-top: 100px;
+}
+
+#home .container .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* ABOUT SECTION */
+
+#about {
+    background: #e5e2e2;
+    padding: 50px 10px;
+}
+
+#about .container {
+    background: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+#about .skill,
+#about .description {
+    width: 50%;
+}
+
+#about .skill .photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#about .skill img {
+    width: 100%;
+    height: 100%;
+}
+
+#about .progress {
+    border-radius: 0px;
+}
+
+.underline {
+    width: 100px;
+    height: 3px;
+    margin-bottom: 20px;
+}
+
+/* PORTFOLIO SECTION */
+
+#portfolio .proj {
+    border-radius: 5px;
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+#portfolio .proj:hover {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+#portfolio .lnk:hover {
+    color: #7188ee;
+}
+
+/* RESUME SECTION */
+
+#resume {
+    background: #000;
+    color: #fff;
+}
