@@ -109,6 +109,11 @@
 }
 
 @media screen and (max-width: 640px) {
+    /* HOME SECTION */
+    #home {
+        background: #000;
+        height: 900px;
+    }
     /* ABOUT SECTION */
     #about .image_label {
         display: block;
