@@ -107,3 +107,22 @@
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 640px) {
+    /* ABOUT SECTION */
+    #about .image_label {
+        display: block;
+    }
+
+    #about .image_label .label {
+        width: 100%;
+    }
+
+    #about .image_label .photo {
+        margin-bottom: 20px;
+    }
+
+    #about .image_label .label {
+        margin-top: 20px;
+    }
+}
