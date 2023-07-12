@@ -123,9 +123,14 @@ header .toggler {
     height: 100%;
 }
 
-#about .progress {
-    border-radius: 0px;
+#about .skill .stack-icon {
+    width: 50px;
+    height: auto;
 }
+
+/* #about .progress {
+    border-radius: 0px;
+} */
 
 .underline {
     width: 100px;
@@ -137,6 +142,7 @@ header .toggler {
 
 #portfolio .proj {
     border-radius: 5px;
+    width: 350px;
     transition: all;
     transition-duration: 0.3s;
 }
